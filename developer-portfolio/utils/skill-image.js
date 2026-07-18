@@ -57,6 +57,8 @@ import prisma from '../app/assets/svg/skills/prisma.svg';
 import python from '../app/assets/svg/skills/python.svg';
 import pytorch from '../app/assets/svg/skills/pytorch.svg';
 import react from '../app/assets/svg/skills/react.svg';
+import remix from '../app/assets/svg/skills/remix.svg';
+import shopify from '../app/assets/svg/skills/shopify.svg';
 import ruby from '../app/assets/svg/skills/ruby.svg';
 import selenium from '../app/assets/svg/skills/selenium.svg';
 import sketch from '../app/assets/svg/skills/sketch.svg';
@@ -114,6 +116,10 @@ export const skillsImage = (skill) => {
       return nuxtJS;
     case 'react':
       return react;
+    case 'remix':
+      return remix;
+    case 'Shopify Polaris':
+      return shopify;
     case 'svelte':
       return svelte;
     case 'typescript':

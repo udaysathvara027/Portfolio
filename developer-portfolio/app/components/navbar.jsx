@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-700 border-b border-[#353a52] bg-[#0d1224]/70 backdrop-blur-md">
+      <nav className="fixed top-0 left-0 w-full z-300 border-b border-[#353a52] bg-[#0d1224]/70 backdrop-blur-md">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
           <Link href="/" className="text-3xl font-bold text-[#16f2b3]">
             UDAY
@@ -52,7 +52,7 @@ export default function Navbar() {
       {/* Overlay */}
       <div
         onClick={() => setIsOpen(false)}
-        className={`fixed inset-0 z-40 bg-black/60 backdrop-blur-sm transition-opacity duration-300 md:hidden ${
+        className={`fixed inset-0 z-500 bg-black/60 backdrop-blur-sm transition-opacity duration-300 md:hidden ${
           isOpen
             ? "opacity-100 visible"
             : "opacity-0 invisible"
