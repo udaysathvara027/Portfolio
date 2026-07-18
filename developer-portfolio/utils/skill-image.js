@@ -120,6 +120,8 @@ export const skillsImage = (skill) => {
       return remix;
     case 'Shopify Polaris':
       return shopify;
+    case 'Shopify App Bridge':
+      return shopify;
     case 'svelte':
       return svelte;
     case 'typescript':
