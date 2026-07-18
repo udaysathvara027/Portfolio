@@ -9,6 +9,7 @@ import { RiContactsFill } from "react-icons/ri";
 
 function HeroSection() {
   return (
+    <div className="pt-[80px]">
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
         src="/hero.svg"
@@ -168,6 +169,7 @@ function HeroSection() {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
